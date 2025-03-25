@@ -11,6 +11,8 @@ local user = "nunera" -- change if you're using a fork
 local branch = "revision"
 local importCache = {}
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/refs/heads/main/Source.lua"))()
+
 local Namecall
 
 Namecall = hookmetamethod(game, '__namecall', function(self, ...)
